@@ -7,6 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .container {
     width: 350px;
@@ -14,6 +15,9 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin:5% auto;
+    padding: 5%;
+    background-color: #221f291c;
   }
   .display {
     display: flex;
@@ -55,9 +59,9 @@ input[type="text"]{
     width: 150px;
     border-radius: 10px;
     text-align: right;
-
+    
 }
-  
+
  
   input[type="button"]:hover {
     background-color: rgb(37, 35, 59);
@@ -68,6 +72,7 @@ input[type="text"]{
     all: unset;
     cursor: pointer;
     color: chocolate;
-    margin: 10px;
+    margin: 5% 5%;
+    position: fixed;
   }
 
